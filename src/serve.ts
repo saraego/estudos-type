@@ -1,5 +1,6 @@
 import express from "express"
 import { routeMain } from "./routes"
+import "dotenv/config"
 import { setupMongo } from "./database"
 
 setupMongo().then(()=>{
