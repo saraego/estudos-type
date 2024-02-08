@@ -1,5 +1,6 @@
 import {StatusCodes} from "http-status-codes"
 
+
 export class AppError {
     public message:string | string[]
     public statusCode: StatusCodes
